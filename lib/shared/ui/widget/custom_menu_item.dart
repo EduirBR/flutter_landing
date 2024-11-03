@@ -30,7 +30,7 @@ class _CustomMenuItemState extends State<CustomMenuItem> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
           width: 150,
-          height: 50,
+          height: 40,
           decoration: BoxDecoration(
             color: isHover ? Colors.pinkAccent : Colors.black,
             borderRadius: BorderRadius.circular(10),

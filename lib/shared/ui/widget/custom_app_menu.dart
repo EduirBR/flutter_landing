@@ -44,8 +44,8 @@ class _CustomAppMenuState extends State<CustomAppMenu>
                 BorderRadius.circular(10), // Radio de los bordes redondeados
           ),
           padding: const EdgeInsets.symmetric(horizontal: 10),
-          width: 200,
-          height: isOpen ? 250 : 42,
+          width: 150,
+          height: isOpen ? 210 : 42,
           child: Column(
             children: [
               _MenuTitle(isOpen: isOpen, aController: aController),
@@ -75,7 +75,7 @@ class _MenuTitle extends StatelessWidget {
         AnimatedContainer(
           duration: const Duration(milliseconds: 200),
           curve: Curves.easeInOut,
-          width: isOpen ? 50 : 0,
+          width: isOpen ? 20 : 0,
         ),
         Text(
           'Menu',

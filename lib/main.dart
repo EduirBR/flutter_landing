@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routerConfig: AppRoutes.router,
-      title: 'landing',
+      title: 'The landing Page',
       // builder: (_, child) {
       //   return const HomePage();
       // },

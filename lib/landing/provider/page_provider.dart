@@ -25,7 +25,6 @@ class PageProvider extends ChangeNotifier {
     final index = (scrollController.page ?? 0).round();
     if (index != _currentIndex) {
       html.window.history.pushState(null, '', '/${_pages[index]}');
-      html.document.title = _pages[currentIndex];
       _currentIndex = index;
       notifyListeners(); // Notifica a los oyentes sobre el cambio
     }

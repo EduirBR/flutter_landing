@@ -1,11 +1,11 @@
 {
-    "name": "vertical_page",
-    "short_name": "vertical_page",
+    "name": "landing_page",
+    "short_name": "langing",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Landing created with flutter",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
